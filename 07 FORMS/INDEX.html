@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Forms</title>
+    </head>
+    <body>
+        <!--this actions attribute send information you can connect php and send information-->
+        <!--the method attribute specify what type of information it is ould use a post for sensitive data-->
+        <!--and you would use the get for unsensitive data like anything else-->
+        <form action="" method="">
+            <!--clicking on the label will automaticly move the cursor to the username text field-->
+            <label for="username">username: </label>
+            <!--adding the required attribute makes it obligatory to submit certain field-->
+            <input type="text" id="username" placeholder="username here" minlength="6" maxlength="15" required>
+            
+            <!--the id on the input should match the for on label-->
+            <br>
+            <!--passwords-->
+            <label for="password">Password: </label>
+            <input type="passwords" id="password">
+
+            <br>
+            <!--email-->
+            <label for="email">Email: </label>
+            <input type="email" id="email" placeholder="email@example.com">
+            <br>
+            <!--phone number-->
+            <label for="phonenumber">Phonenumber :</label>
+            <input type="tel" id="phonenumber" placeholder="123-456-7890" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">
+            <br>
+
+            <label for="date">date :</label>
+            <input type="date" id="date">
+            <br>
+
+            <label for="amount">amount :</label>
+            <input type="number" id="amount" min="0" max="100">
+
+            <br>
+
+            <label for="group1">Group1</label>
+
+            <label for="mr">mr.</label>
+            <input type="radio" id="mr" value="mr" name="group1">
+
+            <label for="ms">ms.</label>
+            <input type="radio" id="ms" value="ms" name="group1">
+
+            <label for="PhD">PhD</label>
+            <input type="radio" id="PhD" value="PhD" name="group1">
+            <!--name makes it so that the radio button doesnt just let you select all the radio buttons-->
+            <br>
+
+            <input type="submit">
+            <input type="reset">
+
+        </form>     
+    </body>
+</html>

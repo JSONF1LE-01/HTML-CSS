@@ -7,4 +7,14 @@
         <title>BUTTONS</title>
     </head>
     <body>
+        <!--you  can also connect javascript-->
+        <button onClick="doSomething()" style="font-size: 50px; background-color: aqua; color: beige; border-radius: 6px;">Example button</button>
+        <!--here you can write some  javascript and run it when you press the btutton-->
+        <p id="Greating">Hello</p>
+        <script>
+            function doSomething(){
+                document.getElementById("Greating").innerHTML = "See ya"
+            }
+        </script>
+    </body>
 </html>
