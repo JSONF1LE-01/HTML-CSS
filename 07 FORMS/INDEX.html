@@ -10,7 +10,7 @@
         <!--this actions attribute send information you can connect php and send information-->
         <!--the method attribute specify what type of information it is ould use a post for sensitive data-->
         <!--and you would use the get for unsensitive data like anything else-->
-        <form action="" method="">
+        <form action="index.php" method="post" enctype="multipart/form-data">
             <!--clicking on the label will automaticly move the cursor to the username text field-->
             <label for="username">username: </label>
             <!--adding the required attribute makes it obligatory to submit certain field-->
@@ -53,6 +53,33 @@
             <input type="radio" id="PhD" value="PhD" name="group1">
             <!--name makes it so that the radio button doesnt just let you select all the radio buttons-->
             <br>
+            
+            <!--OPTIONS-->
+            <label for="Payments">Payments :</label>
+            <select id="Payments">
+                <option value="Visa">Visa</option>
+                <option value="MasterCard">MasterCard</option>
+                <option value="Discover">Discover</option>
+            </select>
+
+            <br>
+            <!--Checkbox-->
+
+            <label for="Checkbox">subscribe :</label>
+            <input type="checkbox" id="Checkbox">
+
+            <br>
+            <!--files you can specify to what tyope of files you want to use-->
+
+            <label for="comments">Label :</label>
+            <textarea type="comment" rows="3" cols="15"></textarea>
+
+            <label for="files">files :</label>
+            <input type="file" accept="image/png">
+            <!--if you want to send large files you have to add enctype="multipart/form-data"-->
+            <br>
+
+            
 
             <input type="submit">
             <input type="reset">
