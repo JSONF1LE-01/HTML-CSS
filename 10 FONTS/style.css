@@ -1,0 +1,16 @@
+@font-face{
+    src: url(fonts/Jersey25Charted-Regular.ttf);
+    font-family: Jersey;
+}
+/*addiong the font family will rename it to watever you like so its easy to find */
+h1{
+    font-family: "Jersey 25 Charted";
+}
+/*just add the google fonts code to the head element and add it here on the css done*/
+p{
+    font-family: "lucida console","courierer new";
+    font-size: 1em;
+    font-weight: bold;
+    font-style: italic;
+}
+/*em is a standard mesurement 1em = 100% and so on*/

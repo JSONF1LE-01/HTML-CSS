@@ -1,0 +1,18 @@
+#p1{
+    color: red;
+}
+#p2{
+    color: pink;
+}
+#p3{
+    color: aliceblue;
+}
+#p4{
+    color: blueviolet;
+}
+.even{
+    font-size: 40px;
+}
+.odd{
+    font-size: 50px;
+}
