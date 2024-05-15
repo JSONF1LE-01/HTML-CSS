@@ -1,0 +1,10 @@
+h1{
+    text-shadow: 3px 3px 15px rgb(255, 0, 0), -3px -3px 15px rgb(21, 0, 255);
+} 
+/*you can add several shadows to the same text just separate them with a comma */
+#box01{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(205, 205, 205);
+    box-shadow: 3px 3px 15px red;
+}

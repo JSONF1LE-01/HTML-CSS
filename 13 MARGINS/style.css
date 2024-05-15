@@ -1,0 +1,20 @@
+body{
+    margin: 0;
+}
+.box{
+    border: 10px solid black;
+    font-size: 3em;
+    width: 100px;
+    height: 100px;
+}
+/*this is very useful the auto margins since they can set a item in the middlle*/
+/*or whatever side you want to use i doubt that this is how responsive */
+/*deisgn is made but looks very helpfull*/
+#box1{
+    background-color: rgb(255, 121, 121);
+    margin-left: auto;
+}
+#box2{
+    background-color: rgb(93, 93, 255);
+    margin: auto;
+}
