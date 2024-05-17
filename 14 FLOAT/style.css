@@ -1,0 +1,15 @@
+body{
+    border: 5px solid;
+    display: flow-root;
+}
+/*just leaving this like it is the images might overflow with the boarder*/
+/*to fix this just add flow-root*/
+#image1{
+    float: left;
+    margin-right: 10px;
+}
+#image2{
+    float: right;
+    margin-left: 10px;
+}
+/*its kinda easy to understand lol*/

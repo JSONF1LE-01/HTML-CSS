@@ -1,0 +1,19 @@
+/*you can change block elements and span elements to be displayed differntly*/
+div{
+    background-color: red;
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+}
+/*by default spans don't acecept height and weight */
+span{
+    background-color: blue;
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+}
+
+/*inline just trakes the necessary space and displaye the rest of the elements
+inline twith the element*/
+/*display none removes basicly the element and visbility hidden hides it but leaves the
+space for the element*/

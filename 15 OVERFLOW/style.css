@@ -1,0 +1,20 @@
+div{
+    border: 5px solid;
+    height: 50px;
+    margin: 20px;
+}
+#div01{
+    overflow: visible;
+}
+#div02{
+    overflow: hidden;
+}
+#div03{
+    overflow: scroll;
+}
+#div04{
+    overflow: clip;
+    /*this will clip the text and overflow clip margin will show certain ammount and clip the rest*/
+    overflow-clip-margin: 13px;
+}
+/*OVERFLOW AUTO WILL AUTOMATICLY ADD SCROLL BAR IF IT IS NEEDED */

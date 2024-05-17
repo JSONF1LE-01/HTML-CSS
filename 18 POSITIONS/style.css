@@ -1,0 +1,18 @@
+#box01{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(255, 59, 255);
+    position: relative;
+    top: 100px;
+    /*pushes the div or element on that side other elements
+    like left right and bottom work the same way*/
+}
+#box02{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(44, 48, 255);
+    position: relative;
+    right: 0px;
+    bottom: 0px;
+
+}

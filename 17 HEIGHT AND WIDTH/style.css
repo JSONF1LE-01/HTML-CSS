@@ -1,0 +1,25 @@
+* {
+    box-sizing: border-box;
+}
+.container{
+    background-color: rgb(255, 50, 50);
+    /*if you check with just this line you should no be able to see the containers color*/
+    height: 100vh;
+    /*100 view port height*/
+    /*adding this will make this container use 100% of the height and width available*/
+}
+.box{
+    background-color: rgb(59, 255, 255);
+    border: 3px solid gray;
+    padding: 25px;
+    height: auto;
+    width: 50%;
+    float: right;
+
+    min-width: 75%;
+    /*this part lets you set a min or  max width or height depending on what you want 
+    a mininum of 75% or a maximum of 90% and so on you can set the max or min that you wants*/
+}
+/*notice how number 2 is in the right that is because of the float property*/
+/*box sizing calculates anything needed to put the elements next to each other*/
+/*this part has a lot of different part so this might quite long*/
