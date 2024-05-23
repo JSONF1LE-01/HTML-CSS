@@ -1,0 +1,40 @@
+/*a link is a pseudo class*/
+a:link{
+    color: rgb(4, 255, 0);
+}
+a:hover{
+    color: red;
+    font-size: 1.5em;
+}
+/*active get activated when you hold the link*/
+a:active{
+    color: rgb(242, 255, 0);
+}
+a:visited{
+    color: black;
+}
+
+li:hover{
+    background-color: rgb(255, 255, 63);
+    font-size: 1.2em;
+}
+li:not(:hover){
+    background-color: grey;
+}
+/*this nth-child is kinda weird but usefull you can select odd number even numbers if you use numbern you can
+select certain cuantity between number and you can specify a number not only can you specify even or add number
+you can add a specific one also this is useful for js you can connect variables here and the
+variable cna change */
+
+li:nth-child(2n + 5){
+    background-color: blueviolet;
+}
+
+#greeting p{
+    background-color: aqua;
+    padding: 10px;
+    display: none;
+}
+#greeting:hover p{
+    display: block;
+}

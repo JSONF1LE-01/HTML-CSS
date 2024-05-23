@@ -1,18 +1,27 @@
-#box01{
+/*#box01{
     height: 100px;
     width: 100px;
     background-color: rgb(255, 59, 255);
     position: relative;
     top: 100px;
     /*pushes the div or element on that side other elements
-    like left right and bottom work the same way*/
-}
+    like left right and bottom work the same way
+} */
 #box02{
     height: 100px;
     width: 100px;
     background-color: rgb(44, 48, 255);
-    position: relative;
-    right: 0px;
-    bottom: 0px;
-
+    position: sticky;
+    left: 0px;
+    top: 15px;
+}
+/*this will position the element on the position that you want to but it will not move from there
+*/
+#box03{
+    height: 50px;
+    width: 50px;
+    background-color: rgb(255, 44, 44);
+    position: absolute;
+    top: 25px;
+    right: 25px;
 }

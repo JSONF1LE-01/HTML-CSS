@@ -1,0 +1,25 @@
+#container{
+    border: 2px solid;
+}
+/*so this is just how the styles can decend in a way t
+just so you dont want to go through each item and s
+style each item and styling every single one
+a space is just style every item inside this specific
+item in this case everything inside the div
+regardles if its inside another div*/
+#container  p{
+    background-color: red;
+}
+
+/*in this other case the div inside the container
+is a decendant but not a child so in this case
+it will apply the effects only to childs and not
+decendant like the div is in this case*/
+#container > p{
+    background-color: green;
+}
+/*yes this is a bit confussing but it quite simple
+so no need to stress about it now*/
+#container ~ p{
+    background-color: aqua;
+}

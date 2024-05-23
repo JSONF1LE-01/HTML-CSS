@@ -1,0 +1,16 @@
+body{
+    background-image: url(background.jpg);
+    background-repeat: no-repeat;
+    background-position: center ;
+    background-attachment: fixed;
+    /*this uses the same positions as the previes part same principles*/
+    /*this new attribute ewill place the image as the background 
+    and sthis elemnts help it stay centered*/
+    background-size: cover;
+}
+h1{
+    color: rgb(63, 92, 255);
+}
+p{
+    color: red;
+}
