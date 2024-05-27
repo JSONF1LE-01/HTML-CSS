@@ -1,0 +1,29 @@
+h1::first-letter{
+    font-size: 2em;
+    font-style: italic;
+}
+p::first-line{
+    background-color: yellow;
+}
+/*this is kinda easy to understando not realy that complicated pretty intuitive*/
+
+/*you can change the selection cursor to watever you want*/
+p::selection{
+    color: rgb(92, 255, 92);
+    background-color: black;
+}
+#banana::after{
+    content: " 🍌";
+}
+#apple::after{
+    content: " 🍎";
+}
+#watermelon::after{
+    content: " 🍉";
+}
+
+#fruit li::marker{
+    content: "  (●'◡'●) ";
+    color: green;
+    font-size: 1.5em;
+}
