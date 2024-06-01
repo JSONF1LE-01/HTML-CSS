@@ -1,0 +1,41 @@
+.dropdown{
+    display: inline-block;
+}
+/*this display turnes the div into a inline block insted of a block that usese a full line
+this will make the dropdown only apear if you are exactly on the button*/
+.dropdown button{
+    background-color: rgb(199, 140, 255);
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+}
+/*cursor lets the cursor turn into the pointer cursor*/
+.dropdown a{
+    background-color: white;
+    display: block;
+    color: black;
+    text-decoration: none;
+    padding: 10px 15px;
+}
+/*basic settings for the elements*/
+.dropdown .content{
+    display: none;
+    position: absolute;
+    background-color: rgb(238, 237, 237);
+    min-width: 100px;
+    box-shadow: 2px 2px 5px black;
+}
+/*while the cursor is not on the button it hides the elements*/
+.dropdown:hover .content{
+    display:block;
+}
+/*this makes that the elements are displayed when the cursor is on the button*/
+.dropdown:hover button{
+    background-color: rgb(143, 23, 255);
+}
+/*changes the color of the button when you hover on it*/
+.dropdown a:hover{
+    background-color: hsl(0, 0%, 76%);
+}
+/*changes the color of the elements when you hover on them*/
