@@ -1,0 +1,46 @@
+*{
+    box-sizing: border-box;
+}
+/*this factors in the padding when calculating the % on the width*/
+body{
+    margin: 0px;
+}
+header{
+    background-color: lightgrey;
+    text-align: center;
+    padding: 25px;
+}
+.navbar{
+    background-color: grey;
+    height: 75px;
+}
+aside{
+    width: 20%;
+    float: left;
+    padding: 10px;
+}
+section{
+    width: 40%;
+    float: left;
+    padding: 10px;
+}
+article{
+    width: 20%;
+    float: left;
+    padding: 10px;
+}
+footer{
+    display: block;
+    clear: both;
+    /*this cleas the float on this element*/
+    background-color: grey;
+    text-align: center;
+    padding: 25px;
+}
+/*in case teh website is opened of a certain resolution like a phone that 
+has max horizontal width you can change the css to some of the items*/
+@media screen and (max-width:600px) {
+    aside, section, article{
+        width: 100px;
+    }
+}
