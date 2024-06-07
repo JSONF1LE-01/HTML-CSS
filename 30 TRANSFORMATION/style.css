@@ -1,0 +1,22 @@
+body{
+    margin: 0px;
+}
+/*you can add this transform to imagess*/
+.box{
+    width: 250px;
+    height: 250px;
+    border: 10px  solid black;
+    font-size: 13em;
+    text-align: center;
+
+    transform: translateX(100px) rotateZ(45deg) scale(1);
+}
+#box1{
+    background-color: rgb(69, 255, 156);
+}
+#box2{
+    background-color: rgb(172, 78, 255);
+}
+#box3{
+    background-color: rgb(93, 255, 93);
+}
